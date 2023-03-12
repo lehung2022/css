@@ -1,0 +1,42 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* html {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #b3b3c1eb;
+    border: 1px solid #111010;
+} */
+
+body {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #b3b3c1eb;
+    border: 1px solid #111010;
+}
+
+h1, h2 {
+    color: #231940;
+}
+
+p {
+    color: #231940;
+}
+
+.highlight {
+    color: #f01313ee;
+    text-transform: uppercase;
+    
+}
+
+.gray {
+    color: #3d1190ee;
+}
+
+#second {
+    font-style: italic;
+    color: #bb1830ee;
+}
