@@ -1,8 +1,44 @@
-body {
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
-    background-color: #FDFEFF;
-    border: 1px solid #111010;
-    color: #2140AC;
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* universal selector */
+
+/* body */
+
+body {
+    min-height: 100vh;
+}
+
+/* body */
+
+/* header and h1 */
+/* header {
+    border: 1px solid #000000;
+
+} */
+
+h1 {
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+/* header and h1 */
+
+/* main and p */
+
+main {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    width: 40ch;
+}
+
+/* main and p */
