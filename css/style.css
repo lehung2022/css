@@ -1,44 +1,39 @@
-/* universal selector */
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* universal selector */
-
-/* body */
-
-body {
-    min-height: 100vh;
-}
-
-/* body */
-
-/* header and h1 */
+/* CSS Reset */
+/* container */
 /* header {
     border: 1px solid #000000;
 
 } */
 
-h1 {
-    border: 2px dashed red;
-    width: 50%;
-    font-size: 3rem;
-    padding: 0.5em;
+.container {
+    border: 10px rgb(64, 24, 174);
+    border-style: ridge;
+
+    font-size: 1.5rem;
+    /* margin: 1.5rem; */
+    margin: 1.5rem 2rem 1.5rem 2rem;
+    padding: 1rem;
+    outline:5px solid rgb(64, 24, 174);
+    outline-offset: 5px;
 }
 
-/* header and h1 */
+/* container */
+/* circle */
+.circle {
+    background-color: rgb(79, 163, 18);
+    width: 100px;
+    height: 100px;
+    border: 2px dashed #156c84;
+    outline: 2px solid #4940c5;
+    outline-offset: 0.25rem;
+    margin: 2rem auto;
+    border-radius: 50px;
 
-/* main and p */
-
-main {
-    font-size: 2rem;
 }
-
-p {
-    font-size: 2rem;
-    width: 40ch;
-}
-
-/* main and p */
+/* circle */
