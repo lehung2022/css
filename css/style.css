@@ -1,39 +1,17 @@
-/* CSS Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/*  */
+body {
+    padding: 10%;
+    font-size: 2rem;
+    color: #3721ae;
+    font-family: 'Roboto', sans-serif;
 }
-/* CSS Reset */
-/* container */
-/* header {
-    border: 1px solid #000000;
 
+/* input, form { 
+    color: inherit;
 } */
 
-.container {
-    border: 10px rgb(64, 24, 174);
-    border-style: ridge;
-
-    font-size: 1.5rem;
-    /* margin: 1.5rem; */
-    margin: 1.5rem 2rem 1.5rem 2rem;
-    padding: 1rem;
-    outline:5px solid rgb(64, 24, 174);
-    outline-offset: 5px;
+p {
+    text-decoration: underline;
+    line-height: 1.5em;
 }
-
-/* container */
-/* circle */
-.circle {
-    background-color: rgb(79, 163, 18);
-    width: 100px;
-    height: 100px;
-    border: 2px dashed #156c84;
-    outline: 2px solid #4940c5;
-    outline-offset: 0.25rem;
-    margin: 2rem auto;
-    border-radius: 50px;
-
-}
-/* circle */
