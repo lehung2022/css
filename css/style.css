@@ -3,15 +3,33 @@
 body {
     padding: 10%;
     font-size: 2rem;
-    color: #3721ae;
+    color: #070517;
     font-family: 'Roboto', sans-serif;
 }
+
+
 
 /* input, form { 
     color: inherit;
 } */
-
-p {
-    text-decoration: underline;
-    line-height: 1.5em;
+/* anchor */
+a {
+    cursor: pointer;
+    color: hsl(240, 67%, 1%);
 }
+
+a:visited {
+    color: rgb(158, 3, 158);
+}
+
+a:hover, a:focus {
+    /* color: rgb(25, 131, 236); */
+    opacity: 0.1;
+    color: gold;
+}
+
+a:active {
+    color: rgb(232, 12, 12);
+}
+
+/* anchor */
