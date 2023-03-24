@@ -1,33 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-/*  */
-body {
-    padding: 5% 10%;
-    font-size: 2rem;
-    color: #070517;
-    font-family: 'Roboto', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-ol {
-    list-style-type: upper-roman;
+body {
+    margin: 0.5rem;
+    text-align: center;
+    font-family: "Roboto", "Helvetica Neue";
+
+}
+
+nav {
+    border: 2px solid #c91c1c;
+    max-width: 600px;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    line-height: 3rem;
+}
+
+h2 {
+    background-color: #e3f429;
+    border-radius: 2rem 2rem 0 0;
+
+    padding: 1rem;
+
 }
 
 ul {
-    list-style-type: hebrew;
-    list-style-position: center;
-    text-align: center;
-    list-style-image: url("../images/checkmark.png");
-    color: #3122aa;
-    line-height: 1.5em;
-    list-style: square url("../images/checkmark.png") inside;  
- }
+    list-style-type: none;
 
- li:nth-child(2) {
-    color: #d00f0f;
- }
+}
 
-ul ::marker { 
-    color: rgb(112, 81, 224);
-    font-size: 0.5em;
-    content: "Only 5% >>";
-    font-family: fantasy;
-  }
+li {
+    border-top: 1px solid #010c01;
+}
+
+li a {
+    /* display: inline-block; */
+    display: block;
+}
+
+li a,
+li a:visited {
+    color: rgb(158, 3, 158);
+    text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+    /* opacity: 0.1; */
+    color: gold;
+    cursor: pointer;
+    background: #c91c1c;
+
+}
+
+li:last-child a {
+    border-radius: 0 0 2em 2em;
+}
+
