@@ -1,35 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 /*  */
 body {
-    padding: 10%;
+    padding: 5% 10%;
     font-size: 2rem;
     color: #070517;
     font-family: 'Roboto', sans-serif;
 }
 
-
-
-/* input, form { 
-    color: inherit;
-} */
-/* anchor */
-a {
-    cursor: pointer;
-    color: hsl(240, 67%, 1%);
+ol {
+    list-style-type: upper-roman;
 }
 
-a:visited {
-    color: rgb(158, 3, 158);
-}
+ul {
+    list-style-type: hebrew;
+    list-style-position: center;
+    text-align: center;
+    list-style-image: url("../images/checkmark.png");
+    color: #3122aa;
+    line-height: 1.5em;
+    list-style: square url("../images/checkmark.png") inside;  
+ }
 
-a:hover, a:focus {
-    /* color: rgb(25, 131, 236); */
-    opacity: 0.1;
-    color: gold;
-}
+ li:nth-child(2) {
+    color: #d00f0f;
+ }
 
-a:active {
-    color: rgb(232, 12, 12);
-}
-
-/* anchor */
+ul ::marker { 
+    color: rgb(112, 81, 224);
+    font-size: 0.5em;
+    content: "Only 5% >>";
+    font-family: fantasy;
+  }
