@@ -15,39 +15,36 @@ body {
     padding: 0;
 }
 
-ul {
-    list-style-type: none;
-    text-align: center;
-    background-color: #333;
-    color: #bdbaba;
-}
-
-li { 
-    display: inline-block;
-
-}
-
-li a { 
-    color: #aa1313;
-}
-
-/* main {
-    
-    width: 100%;
- 
-} */
-
-
-
-/* .opposite {
+.block {
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    background-color: #120303;
+    color: #faf3f3;
     padding: 1rem;
-    background-color: #0b0a0a;
-    color: #f5f5f5;
-    
-    
-} */
+}
 
-/* p {
-    background-color: #7768a5;
-    display: block;
-} */
+.float-left {
+    float: left;
+    margin-right: 1rem;
+
+}
+
+.float-right {
+    float: right;
+    margin-left: 1rem;
+
+}
+
+.clear {
+    clear: both;
+    background-color: #1bc788;
+
+}
+
+section {
+    background-color: #491ee5;
+    display: flow-root;
+    padding: 1rem;
+    border: 1px solid #333;
+}
