@@ -3,10 +3,7 @@
 
 body {
     margin: 0.5rem;
-
     font-family: "Roboto", "Helvetica Neue";
-
-
 }
 
 * {
@@ -15,36 +12,11 @@ body {
     padding: 0;
 }
 
-.block {
-    width: 30vw;
-    height: 30vw;
-    display: flex;
-    background-color: #120303;
-    color: #faf3f3;
-    padding: 1rem;
-}
-
-.float-left {
-    float: left;
-    margin-right: 1rem;
-
-}
-
-.float-right {
-    float: right;
-    margin-left: 1rem;
-
-}
-
-.clear {
-    clear: both;
-    background-color: #1bc788;
-
-}
-
-section {
-    background-color: #491ee5;
-    display: flow-root;
-    padding: 1rem;
-    border: 1px solid #333;
+.column {
+    /* column-count: 4;
+    column-width: 500px; */
+    columns: 4 500px;
+    column-rule: 3px solid #333;
+    column-gap: 3rem;
+    
 }
