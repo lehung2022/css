@@ -27,7 +27,7 @@ body {
   margin: 200px auto;
   position: relative;
   display: flex;
-  flex-direction: column; 
+  /* flex-direction: column;  */
 
 }
 
@@ -68,8 +68,9 @@ body {
   left: 0;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .inner-container {
     flex-direction: column;
   }
 }
+
