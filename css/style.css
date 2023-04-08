@@ -27,7 +27,7 @@ body {
   margin: 200px auto;
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column; 
 
 }
 
@@ -66,4 +66,10 @@ body {
   background-color: rgb(228, 106, 25);
   top: 0;
   left: 0;
+}
+
+@media (max-width: 800px) {
+  .inner-container {
+    flex-direction: column;
+  }
 }
