@@ -1,10 +1,11 @@
 /* Some default styles to make each box visible */
 .box {
-  color: #fff;
+  color:white;
   font-size: 100px;
   text-align: center;
-  text-shadow: 4px 4px 0 rgba(0, 0, 0, .1);
-  padding: 10px;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+  width: 10%;
 }
 
 /* Colours for each box */
@@ -55,5 +56,6 @@
   display: flex;
   /* by making the parent container 'flex', all the children become 'flex-items' */
   border: 10px solid red;
+  flex-wrap: wrap;
   height: 100vh;
 }
