@@ -1,0 +1,2 @@
+The folder named "css" is the repository named "css" on my github page.
+Beware, as I have divided each lesson into each branch, don't mess them up. 
