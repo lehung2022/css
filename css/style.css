@@ -16,18 +16,19 @@
 .box1 {
   background: #1abc9c;
   order: 1;
-  align-self: flex-start;
+  flex: 10;
 }
 
 .box2 {
   background: #3498db;
   order: 2;
-  align-self: baseline;
+   
 }
 
 .box3 {
   background: #9b59b6;
   order: 3;
+  flex: 2;
 }
 
 .box4 {
@@ -43,6 +44,7 @@
 .box6 {
   background: #e67e22;
   order: 6;
+  flex: 2;
 }
 
 .box7 {
@@ -63,7 +65,7 @@
 .box10 {
   background: #16a085;
   order: 10;
-  align-self: flex-end;
+   
 }
 
 
