@@ -1,7 +1,10 @@
+* {
+  box-sizing: border-box;
+}
 /* Some default styles to make each box visible */
 .box {
   color: white;
-  font-size: 10px;
+  font-size: 100px;
   text-align: center;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
   padding: 10px;
@@ -62,13 +65,10 @@
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
-
-  /* border: 1px solid rgb(196, 148, 142); */
   display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  /* main axis is from top to bottom, while the cross axis is left to right */
-  min-height: 100vh;
+  border: 10px solid goldenrod;
+  height: 100vh;
+  align-items: baseline;
 }
 
 /* The order of the design is 5 9 1 2 4 6 8 10 3 7 */
