@@ -66,7 +66,7 @@
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
-  border: 10px solid goldenrod;
+  border: 10px solid rgb(32, 218, 97);
   height: 100vh;
   align-items: baseline;
 }
